@@ -6,3 +6,4 @@
 6. podgląd listy zdarzeń w wybranym kontenerze: docker container logs c53867a3a643
 7. podgląd szczegółów kontenera i jego procesów: docker container inspect c53867a3a643
 8. podgląd wszystkich istniejących kontenerów: docker container ls --all
+9. uruchomienie aplikacji web w tle: docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web
