@@ -37,3 +37,9 @@ PROJEKT PYTHON
 -> budowa obrazu: docker build -t sigmoid-python .
 -> interaktywne uruchomienie aplikacji: docker container run --interactive --tty sigmoid-python
 
+COMPOSE
+
+-> wejście: cd C:\diamol\ch07\exercises\todo-list
+-> uruchomienie aplikacji na compose: docker-compose up
+-> uruchom adres: localhost:8020
+
