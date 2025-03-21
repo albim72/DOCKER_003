@@ -18,5 +18,5 @@
 18. uruchomienie kontenera z nową zmienną śrdowiskową - TARGET: docker container run --env TARGET=google.com diamol/ch03-web-ping
 19. wejście do katalogu z aplikacją i Dockerfile: cd C:\diamol\ch03\exercises\web-ping
 20. Utworzenie własnego obrazu na podstawie pliku dockerfile: docker image build --tag web-ping .
-21. wuświetlenie wszystkich obrazów z nazwą znacznika zaczynającą się na w -> docker image ls 'w*'
-22. 
+21. wyświetlenie wszystkich obrazów z nazwą znacznika zaczynającą się na w -> docker image ls 'w*'
+22. uruchamianie kontenera web-ping na podstawie własnego obrazu Dockera: docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
