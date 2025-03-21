@@ -11,3 +11,5 @@
 11. informacje na temat działającego kontenera: docker container stats
 12. usuwanie wszystkich kontenerów: docker container rm --force $(docker container ls --all --quiet)
 13. sprawdzanie listy kontenerów: docker container ls
+14. pubieranie obrazu z dockerhub: docker image pull diamol/ch03-web-ping
+15. 
