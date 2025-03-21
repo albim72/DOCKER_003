@@ -26,5 +26,7 @@
 26. wejście do katalogu zawierającego Dockerfile: cd C:\diamol\ch03\exercises\web-ping
 27. budowa nowej wersji obrazu: docker image build -t web-ping:v2 .
 28. modyfikacja pliku Dockerfile(przeniesienie cmd do nowej linii - drugiej po from) - utworzenie trzeciej wersji obrazu: docker image build -t web-ping:v3 .
-wejście do katalogu: cd C:\diamol\ch04\exercises\multi-stage
-budowa obrazu: docker image build -t multi-stage .
+29. wejście do katalogu: cd C:\diamol\ch04\exercises\multi-stage
+30. budowa obrazu: docker image build -t multi-stage .
+31. utworzenie sieci nat: docker network create nat
+32
