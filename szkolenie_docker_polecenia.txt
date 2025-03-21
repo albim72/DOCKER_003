@@ -16,3 +16,5 @@
 16. dziennki wykonanego kontenera: docker container logs web-ping
 17. Usunięcie kontenera po nazwie: docker rm -f web-ping
 18. uruchomienie kontenera z nową zmienną śrdowiskową - TARGET: docker container run --env TARGET=google.com diamol/ch03-web-ping
+19. wejście do katalogu z aplikacją i Dockerfile: cd C:\diamol\ch03\exercises\web-ping
+20. Utworzenie własnego obrazu na podstawie pliku dockerfile: docker image build --tag web-ping .
