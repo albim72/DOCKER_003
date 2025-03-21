@@ -8,3 +8,4 @@
 8. podgląd wszystkich istniejących kontenerów: docker container ls --all
 9. uruchomienie aplikacji web w tle: docker container run --detach --publish 8088:80 diamol/ch02-hello-diamol-web
 10 Uruchom przzeglądarkę: https://localhost:8088
+11. informacje na temat działającego kontenera: docker container stats
