@@ -22,4 +22,4 @@
 22. uruchamianie kontenera web-ping na podstawie własnego obrazu Dockera: docker container run -e TARGET=docker.com -e INTERVAL=5000 web-ping
 23. sprawdzenie historii obrazu: docker image history web-ping
 24. lista dostępnych obrazów: docker image history web-ping
-
+25. miejsce zajmowane przez docker: docker system df
