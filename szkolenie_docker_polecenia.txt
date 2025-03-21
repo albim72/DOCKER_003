@@ -1,1 +1,2 @@
 1. Wersja dockera: docker version
+2. uruchomienie kontenera w oparciu o obraz osadzony na dockehub diamol: docker container run diamol/ch02-hello-diamol
