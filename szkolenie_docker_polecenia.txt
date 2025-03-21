@@ -29,4 +29,4 @@
 29. wejście do katalogu: cd C:\diamol\ch04\exercises\multi-stage
 30. budowa obrazu: docker image build -t multi-stage .
 31. utworzenie sieci nat: docker network create nat
-32
+32. urcuhamianie kontenera z użyciem sieci nat: docker container run --name iotd -d -p 800:80 --network nat image-of-the-day
