@@ -30,3 +30,8 @@
 30. budowa obrazu: docker image build -t multi-stage .
 31. utworzenie sieci nat: docker network create nat
 32. urcuhamianie kontenera z użyciem sieci nat: docker container run --name iotd -d -p 800:80 --network nat image-of-the-day
+
+PROJEKT PYTHON
+
+-> wejście do katalogu projektu: cd C:\diamol\python_sigmoid_project
+
