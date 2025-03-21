@@ -5,3 +5,4 @@
 5. podgląd listy procesów w wybranym kontenerze: docker container top c53867a3a643
 6. podgląd listy zdarzeń w wybranym kontenerze: docker container logs c53867a3a643
 7. podgląd szczegółów kontenera i jego procesów: docker container inspect c53867a3a643
+8. podgląd wszystkich istniejących kontenerów: docker container ls --all
