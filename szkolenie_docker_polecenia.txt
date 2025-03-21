@@ -34,4 +34,4 @@
 PROJEKT PYTHON
 
 -> wejście do katalogu projektu: cd C:\diamol\python_sigmoid_project
-
+-> budowa obrazu: docker build -t sigmoid-python .
