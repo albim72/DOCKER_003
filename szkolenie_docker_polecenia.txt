@@ -1,1 +1,1 @@
-
+1. Wersja dockera: docker version
