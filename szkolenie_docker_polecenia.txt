@@ -15,3 +15,4 @@
 15. wykonanie kontenrra na podtawie obrazu: docker container run -d --name web-ping diamol/ch03-web-ping
 16. dziennki wykonanego kontenera: docker container logs web-ping
 17. Usunięcie kontenera po nazwie: docker rm -f web-ping
+18. uruchomienie kontenera z nową zmienną śrdowiskową - TARGET: docker container run --env TARGET=google.com diamol/ch03-web-ping
