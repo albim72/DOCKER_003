@@ -23,3 +23,5 @@
 23. sprawdzenie historii obrazu: docker image history web-ping
 24. lista dostępnych obrazów: docker image ls
 25. miejsce zajmowane przez docker: docker system df
+26. wejście do katalogu zawierającego Dockerfile: cd C:\diamol\ch03\exercises\web-ping
+27. budowa nowej wersji obrazu: docker image build -t web-ping:v2 .
